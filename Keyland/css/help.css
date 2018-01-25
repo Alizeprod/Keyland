@@ -1,0 +1,89 @@
+.title {
+	width: 760px;
+	padding: 20px;
+	text-align: center;
+	background: #f2f2f2;
+}
+
+.title h3{
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+}
+
+.name_form  {
+	width: 760px;
+	padding: 20px;
+	text-align: center;
+}
+
+.name_form h3{
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+}
+
+form {
+	padding: 10px;
+}
+
+.send {
+	color: white;
+	background: #142324;
+	width: 50px;
+}
+
+.obich {
+	width: 200px;
+	margin-bottom: 10px;
+	height: 20px;
+	text-align: center;
+    display: inline;
+    text-decoration: none;
+
+}
+
+.specin {
+	width: 300px;
+	text-align: center;
+    display: inline;
+    text-decoration: none;
+	height: 100px;
+	margin-bottom: 5px;
+}
+
+.formcon {
+	width: 800px;
+}
+
+.formul {
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+}
+
+footer {
+	position: fixed;
+    left: 0; 
+    bottom: 0;
+}
+
+@media screen and (max-width: 305px){
+	.formul {
+		width: 100%;
+	}
+	.obich {
+		width: 90%;
+	}
+	.specin {
+		width: 90%;
+		margin: 0 auto;
+		height: 120px;
+	}
+}
+
+@media screen and (max-height: 720px){
+	footer {
+	position: relative;
+    left: auto; 
+    bottom: auto;
+}
+}

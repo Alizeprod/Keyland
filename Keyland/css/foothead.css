@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f2f2f2;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto"
+	font-weight:300;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	outline: 0;
+}
+
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+header {
+	background: #fff;
+	height: 70px;
+}
+
+.name {
+	background: #142324;
+	display: flex;
+	justify-content: center;
+
+}
+
+.name #name {
+	padding: 5px;
+	font-size: 50px;
+	color: white;
+}
+
+.name #name:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.name #pull {
+	padding: 5px;
+	color: white;
+	display: none;
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	background: #142324;
+	font-size: 16px;
+	font-family: "Roboto";
+	font-weight: bold;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0 auto;
+	width: 800px;
+	height: 50px;
+}
+
+nav li {
+	display: inline;
+	float: left;
+}
+
+.menu:before,
+.menu:after {
+    content: " ";
+    display: table;
+}
+
+.menu:after {
+    clear: both;
+}
+
+.menu {
+    *zoom: 1;
+}
+
+nav a {
+	color: white;
+	display: inline-block;
+	width: 160px;
+	text-align: center;
+	line-height: 50px;
+}
+nav li a {
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+nav a:hover, nav a:active {
+	background-color: #1F3438; 
+}
+
+
+footer{
+	height: 150px;
+	width: 100%;
+	background: #142324;
+
+}
+
+.ico-ico{
+    display: flex;
+	justify-content: center;
+}
+
+.ico-container {
+	width: 800px;
+}
+
+.ico {
+	padding:5px 5px; 
+	padding-left: 15px;
+}
+
+.ico a {
+	color: #BDBDBD;
+	font-size: 15px;
+}
+
+.f_cr {
+
+	text-align: right;
+	padding-top: 15px;
+}
+
+.f_cr h4{
+	color: #BDBDBD;
+	padding-right:  15px
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+
+}
+
+main {
+	margin-top: 50px;
+}
+
+@media screen and (max-width: 800px){
+	header{
+		position: relative;
+		z-index: 2;
+	}
+    nav {
+    	height: auto;
+        border-bottom: 0;
+        z-index: 999999;
+    }
+    nav ul {
+        width: 100%;
+        display: none;
+        height: auto;
+    }
+    nav li {
+        width: 50%;
+        float: left;
+        position: relative;
+    }
+    .title {
+    	width: 100%;
+    }
+    .name #pull {
+    	width: 100%;
+    	font-size: 40px;
+        display: block;
+        background-color: #142324;
+        position: relative;
+    }
+    .name #name {
+    	text-align: center;
+    	padding-right: 5%; 
+    }
+    .spec{
+    	border-right: 1px solid white; 
+    }
+    nav li:last-child {
+    	border-top: 1px solid white;
+    	width: 100%;
+    	position: relative;
+    }
+    nav a {
+        text-align: center;
+        width: 100%;
+        text-indent: 25px;
+    }
+}
+
+@media screen and (max-width: 280px){
+	nav li {
+		text-align: center;
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 220px){
+	nav li {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 190px){
+	.name #name {
+		font-size: 20px;
+	}
+	nav li {
+		font-size: 10px;
+	}
+}

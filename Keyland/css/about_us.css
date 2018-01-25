@@ -1,0 +1,51 @@
+
+.title {
+	background: #D4EDE0;
+	width: 800px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.aboutg p{
+	color: white;
+	font-size: 18px;
+	font-family: "Roboto", sans-serif;
+}
+
+.aboutg {
+	margin-top: 0;
+	background: #062814;
+	width: 760px;
+	padding: 20px;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.ico-container {
+	width: 800px;
+	background: #D4EDE0;
+}
+
+.ico {
+	padding:5px 5px; 
+	padding-left: 15px;
+}
+
+.ico a {
+	color: black;
+	font-size: 15px;
+}
+@media screen and (max-width: 800px){
+	img {
+		width: 100%;
+	}
+	main {
+		margin-top: 0;
+	}
+}
